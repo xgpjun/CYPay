@@ -4,3 +4,4 @@
 
 Use the zxing library to implement a map scan QR-code payment plugin in Minecraft.
 
+![](https://s2.loli.net/2023/12/22/UovJ6PHBOIGsCuT.png)
