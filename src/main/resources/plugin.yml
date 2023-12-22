@@ -1,0 +1,14 @@
+name: CYPay
+version: '${project.version}'
+main: cn.xgpjun.cypay.CYPay
+api-version: '1.13'
+authors: [1badsobig]
+depend:
+  - PlayerPoints
+softdepend:
+  - PlaceholderAPI
+commands:
+  cypay:
+    usage: "/cypay help"
+    aliases:
+      - cp

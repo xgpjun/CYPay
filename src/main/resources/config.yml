@@ -1,0 +1,13 @@
+#后台网站: A:https://pay.oi4.cn/ B:https://mpay.oi4.cn/
+site: A
+#商户ID
+id: 1001
+#密钥
+key: ""
+
+#订单过期时间(自动收起地图) 秒
+timeout: 120
+#是否启用对应支付方式
+vx: true
+zfb: true
+qq: true

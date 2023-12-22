@@ -1,0 +1,25 @@
+#仅做默认商城。 提供默认情况下的使用 你可以使用命令+各种菜单实现充值！
+title: "&6&l点券充值"
+#商品名称为键 也为物品展示名称不要重复
+#使用颜色符号要用 "" 来包围.
+"&6这是商品名称":
+  item:
+    #在下面的链接找对应物品名
+    #1.12:https://docs.zoyn.top/bukkitapi/1.12.2/org/bukkit/Material.html
+    #1.13+:https://bukkit.windit.net/javadoc/org/bukkit/Material.html
+    material: "APPLE"
+    lore:
+      - "&a100rmb = &d10&a点券"
+  #金额 必填
+  money: 100
+  #获得点券
+  points: 10
+  #执行命令、 仅可使用控制台执行。 你需要下载PAPI前置。 并下载对应扩展包。 使用/papi parse me %Player_name% 来测试
+  command:
+    - "fly %Player_name%"
+aaa:
+  money: 200
+  points: 20
+哈哈:
+  money: 0.99
+  points: 10
